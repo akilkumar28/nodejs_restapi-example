@@ -19,8 +19,8 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(router)
 
 
-
-app.listen(3003,() => {
+const PORT = process.env.PORT || 3003
+app.listen(PORT,() => {
     console.log("Server is app and running...AK")
 })
 
