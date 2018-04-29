@@ -6,10 +6,10 @@ const router = express.Router()
 
 const connection = mysql.createPool({
     connectionLimit: 10,
-    host: "localhost",
-    user: "root",
-    password: "pumapolice",
-    database: "lbta_mysql"
+    host: "us-cdbr-iron-east-05.cleardb.net",
+    user: "bd58cb7b6cf66b",
+    password: "6ff92269",
+    database: "heroku_0497222a6793cbd"
 })
 
 

@@ -8,10 +8,10 @@ const router = require("./routes/user.js")
 
 const connection = mysql.createPool({
     connectionLimit: 10,
-    host: "localhost",
-    user: "root",
-    password: "pumapolice",
-    database: "lbta_mysql"
+    host: "us-cdbr-iron-east-05.cleardb.net",
+    user: "bd58cb7b6cf66b",
+    password: "6ff92269",
+    database: "heroku_0497222a6793cbd"
 })
 
 app.use(morgan("short"))
